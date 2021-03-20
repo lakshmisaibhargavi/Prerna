@@ -1,0 +1,2 @@
+de/pdad/getip/BuildConfig.java
+ de.pdad.getip.BuildConfig

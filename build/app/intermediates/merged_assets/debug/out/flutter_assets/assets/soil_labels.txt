@@ -1,0 +1,4 @@
+Alluvial_Soil
+Black soil
+Clay soil
+Red soil

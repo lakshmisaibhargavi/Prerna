@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626479187040",
+    "project_id": "prerana-95450",
+    "storage_bucket": "prerana-95450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626479187040:android:e7c8b5f173019b801daf05",
+        "android_client_info": {
+          "package_name": "com.example.prerna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626479187040-aosn5u9qcj8k0gvjehsktra1pvtj5r63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBum1DxvvmvmmVs6QyNKyEKZA874xMplQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626479187040-aosn5u9qcj8k0gvjehsktra1pvtj5r63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
