@@ -39,7 +39,7 @@ We bring this experience to your reach, as a package within your pocket-money. A
 
 As this is a global scale project 🌎, the process of getting these incentives is being done with the help of smart contracts 📑 through ethereum, for safer and faster transactions, removing the barrier of national currencies.
 
-<img src="https://user-images.githubusercontent.com/71865643/111894044-7968ba00-8a2d-11eb-82fe-5afbc639d618.jpg" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/71865643/111894044-7968ba00-8a2d-11eb-82fe-5afbc639d618.jpg" width="1280" height="800"/>
 
 
 
