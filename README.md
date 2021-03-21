@@ -43,21 +43,37 @@ Maintaining the ML model accuracy, combining smart contracts together to attain 
 ## Upgradations in the future
 
 Better stitching of panoramical images into VR experience
+
 Clarity of the 360 degree image (Location)
+
 Data extraction
+
 Vizualisation of collected data
+
 Introduction of green zones in the city, with the help of plant density information in a particular area.
+
 Recognising the places with poor air quality index
 
 
 ## Tech Stack
 
 Flutter 
+
 Google cardboard SDK
+
 Etherium
+
 Tensor flow lite
+
 Matic
+
 Firebase
 
+## Team Binary
 
+Divi Gnanesh
+
+G Lakshmi
+
+Shanmukh R
 
