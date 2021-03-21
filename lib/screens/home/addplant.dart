@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:ffi';
 import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:prerna/home.dart';
@@ -18,7 +17,7 @@ class Addplant extends StatefulWidget {
   _AddplantState createState() => _AddplantState();
 }
 
-Color backgroundColor = Color.fromRGBO(130, 205, 113, 1);
+Color backgroundColor = Colors.blue.shade200;
 
 class _AddplantState extends State<Addplant> {
   File _image2;

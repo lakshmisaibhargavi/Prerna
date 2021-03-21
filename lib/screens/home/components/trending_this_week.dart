@@ -60,7 +60,7 @@ class TrendingThisWeek extends StatelessWidget {
     );
   }
 
-  Color backgroundColor = Color.fromRGBO(130, 205, 113, 1);
+  Color backgroundColor = Colors.blue.shade200;
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -88,7 +88,7 @@ class TrendingThisWeek extends StatelessWidget {
             ),
             Padding(
               padding:
-                  const EdgeInsets.symmetric(vertical: 50.0, horizontal: 0),
+                  const EdgeInsets.symmetric(vertical: 20.0, horizontal: 0),
               child: Container(
                 height: size.height * 0.2,
                 child: ListView.builder(

@@ -5,13 +5,13 @@ class MenuWidget extends StatefulWidget {
   _MenuWidgetState createState() => _MenuWidgetState();
 }
 
-Color backgroundColor = Color.fromRGBO(130, 205, 113, 1);
+Color backgroundColor = Colors.blue.shade200;
 
 class _MenuWidgetState extends State<MenuWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.brown[300],
+      color: Colors.blue.shade600,
       padding: const EdgeInsets.only(top: 30),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,

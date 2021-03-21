@@ -12,7 +12,7 @@ class Dashboard extends StatefulWidget {
   _DashboardState createState() => _DashboardState();
 }
 
-Color backgroundColor = Color.fromRGBO(130, 205, 113, 1);
+Color backgroundColor = Colors.blue.shade200;
 
 class _DashboardState extends State<Dashboard> {
   var _selectedTab = _SelectedTab.home;
@@ -33,30 +33,9 @@ class _DashboardState extends State<Dashboard> {
       body: SliderMenuContainer(
           appBarColor: backgroundColor,
           key: _key,
-          appBarPadding: const EdgeInsets.only(top: 50),
-          appBarHeight: 60,
-          title: RichText(
-            text: TextSpan(
-                text: '',
-                style: TextStyle(
-                    fontSize: 30,
-                    fontWeight: FontWeight.w700,
-                    color: Colors.black),
-                children: <TextSpan>[
-                  TextSpan(
-                      text: 'Plant',
-                      style: TextStyle(
-                          fontSize: 30,
-                          fontWeight: FontWeight.w700,
-                          color: Colors.black)),
-                  TextSpan(
-                      text: 'Pay',
-                      style: TextStyle(
-                          fontSize: 30,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white70)),
-                ]),
-          ),
+          appBarPadding: const EdgeInsets.only(top: 20),
+          appBarHeight: 100,
+          title: Image.asset('assets/logo.png'),
           sliderMenu: MenuWidget(),
           sliderMain: MainWidget()),
     );

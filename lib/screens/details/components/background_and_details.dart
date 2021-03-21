@@ -1,7 +1,8 @@
+import 'package:prerna/constants/constants.dart';
+import 'package:prerna/home.dart';
+import 'package:prerna/models/plant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'package:prerna/constants/constants.dart';
-import 'package:prerna/models/plant.dart';
 
 class BackgroundAndDetails extends StatefulWidget {
   final Plant plant;

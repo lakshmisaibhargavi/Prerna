@@ -1,0 +1,119 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "Name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Age",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "Lane",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "City",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "State",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "Pincode",
+				"type": "int256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Date",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Month",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Year",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Imei",
+				"type": "uint256"
+			}
+		],
+		"name": "individual",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "Imei",
+				"type": "uint256"
+			}
+		],
+		"name": "PersonDetails",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "PersonName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "PersonAge",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "Personlane",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "Personcity",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "Personstate",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "Personpincode",
+				"type": "int256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Persondate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Personmonth",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "Personyear",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

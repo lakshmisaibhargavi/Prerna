@@ -1,22 +1,24 @@
 import 'dart:convert';
 
+import 'package:prerna/bag.dart';
+import 'package:prerna/navbar.dart';
+
 import 'package:http/http.dart' as http;
+import 'package:prerna/screens/home/Newplant.dart';
+import 'package:prerna/screens/myplant.dart';
+
+import 'package:prerna/screens/nurture.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:imei_plugin/imei_plugin.dart';
-import 'package:prerna/screens/home/Newplant.dart';
-import 'package:prerna/screens/myplant.dart';
-import 'package:prerna/screens/nurture.dart';
-import 'package:prerna/screens/plantpay.dart';
-
-import 'navbar.dart';
+import 'package:prerna/screens/profile.dart';
 
 class MainWidget extends StatefulWidget {
   @override
   _MainWidgetState createState() => _MainWidgetState();
 }
 
-Color backgroundColor = Color.fromRGBO(130, 205, 113, 1);
+Color backgroundColor = Colors.blue.shade200;
 
 class _MainWidgetState extends State<MainWidget> {
   @override
@@ -27,7 +29,7 @@ class _MainWidgetState extends State<MainWidget> {
 
   bool busy = true;
   String id;
-  int np = 0;
+  int np = 2;
   var data = {};
   Future<void> getid() async {
     var extracted;
@@ -69,7 +71,7 @@ class _MainWidgetState extends State<MainWidget> {
         data: data,
         imei: id,
       ),
-      Myplant(
+      Mybag(
         data: data,
         imei: id,
       ),
@@ -77,10 +79,7 @@ class _MainWidgetState extends State<MainWidget> {
         imei: id,
         data: data,
       ),
-      Plantpay(
-        data: data,
-        imei: id,
-      )
+      Profile()
     ];
     List<Color> colors = [
       backgroundColor,
@@ -123,19 +122,19 @@ class _MainWidgetState extends State<MainWidget> {
                       items: [
                         /// Home
                         DotNavigationBarItem(
-                            icon: 'assets/ns.png', name: 'NEW PLANT'),
+                            icon: 'assets/np.png', name: 'MY PLANT'),
 
                         /// Likes
                         DotNavigationBarItem(
-                            icon: 'assets/np.png', name: 'MY PLANTS'),
+                            icon: 'assets/bag.png', name: 'MY BAG'),
 
                         /// Search
                         DotNavigationBarItem(
-                            icon: 'assets/nw.png', name: 'NURTURE'),
+                            icon: 'assets/home.png', name: 'HOME'),
 
                         /// Profile
                         DotNavigationBarItem(
-                            icon: 'assets/PB.png', name: 'PLANT BANK'),
+                            icon: 'assets/user.png', name: 'PROFILE'),
                       ],
                     ),
                   ),
@@ -144,7 +143,7 @@ class _MainWidgetState extends State<MainWidget> {
             ),
           )
         : Scaffold(
-            backgroundColor: Colors.green,
+            backgroundColor: Colors.blue.shade200,
             body: Center(child: CircularProgressIndicator()),
           );
   }

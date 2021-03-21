@@ -12,7 +12,7 @@ class Indform extends StatefulWidget {
   _IndformState createState() => _IndformState();
 }
 
-Color backgroundColor = Color.fromRGBO(130, 205, 113, 1);
+Color backgroundColor = Colors.blue.shade200;
 String city;
 int pincode;
 String lane;
@@ -558,7 +558,7 @@ class _IndformState extends State<Indform> {
                               width: width * 0.5,
                               child: Center(
                                   child: Text(
-                                "Let's PLant",
+                                "RUSH",
                                 style: TextStyle(
                                     color: Colors.black, fontSize: 20),
                               )),

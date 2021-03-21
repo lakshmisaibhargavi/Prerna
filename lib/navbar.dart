@@ -7,7 +7,7 @@ class DotNavigationBar extends StatelessWidget {
     this.currentIndex = 0,
     this.onTap,
     this.margin = const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-    this.itemPadding = const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+    this.itemPadding = const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
     this.duration = const Duration(milliseconds: 200),
     this.curve = Curves.easeOutQuint,
     this.dotIndicatorColor,
@@ -37,7 +37,7 @@ class DotNavigationBar extends StatelessWidget {
           color: Colors.white,
         ),
         Container(
-          height: 150,
+          height: 130,
           padding: EdgeInsets.symmetric(vertical: 12),
           color: Colors.transparent,
           child: Padding(
@@ -60,12 +60,13 @@ class DotNavigationBar extends StatelessWidget {
                           onTap: () => onTap?.call(items.indexOf(item)),
                           child: Stack(children: <Widget>[
                             Padding(
-                              padding: EdgeInsets.only(right: 20, bottom: 25),
+                              padding: EdgeInsets.only(
+                                  right: itemPadding.right / 0.80, bottom: 25),
                               child: Row(
                                 children: [
                                   Image.asset(
                                     '${item.icon}',
-                                    height: 120,
+                                    height: 50,
                                     width: 70,
                                   ),
                                 ],
@@ -73,7 +74,7 @@ class DotNavigationBar extends StatelessWidget {
                             ),
                             ClipRect(
                               child: SizedBox(
-                                height: 100,
+                                height: 80,
                                 child: Align(
                                   alignment: Alignment.bottomCenter,
                                   widthFactor: t,
@@ -98,8 +99,8 @@ class DotNavigationBar extends StatelessWidget {
                               ),
                             ),
                             Positioned(
-                              bottom: -2,
-                              left: 10,
+                              bottom: 7,
+                              left: 12,
                               child: Center(
                                 child: Text(
                                   "${item.name}",
