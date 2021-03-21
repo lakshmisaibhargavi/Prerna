@@ -1,5 +1,7 @@
 # Prerna - to make a better world
 
+app download link :https://drive.google.com/file/d/1_QWUN5xRciIlQXg-_Slk1Tw0IspXgVqH/view?usp=sharing
+
 ## Introduction
 Ever wondered if money could grow from trees? 💵🌳
 
@@ -22,6 +24,7 @@ This ideology has led us in coming up with an innovative solution, where the use
 The main source of the income is the exchange 💱 of information/data, plant panorama images collected from the user include the data such as mean sea level, precipitation, N2-CO2-O2 levels in air, soil type and average temperature of that day.
 
 This data helps an agriculturist or a hortico to come up with an overview on the plant growth 🌱🌳 in different circumstances. This gives a broad look on the aspects of interspecies differentiation. The data is analysed 📈 with the help of ML models in reverification of the type of the plant 🌱, identifying the soil type, extraction of external factors that influence the plant (Temperature, humidity, moisture content), presence of diseases and several micronutrients in soil like nitrogen, phosphorous, calcium, etc. To get untampered data, we are using blockchain to store in the value
+
 
 Perspective over a particular place differs on how we see it, people who have already visited a place, might not find it interesting as they lack the vision to see the beauty in and around the place. They might not have access to visit the place, such as caves, high altitude places 🧗, deep sea diving 🏄, extreme weather places, outer space experience 👨🏼‍🚀 too, but these places might contain a separate world in it. Due to financial 💰, time 🕰️ and health issues may not be able to experience it. 
 
@@ -76,4 +79,5 @@ Divi Gnanesh
 G Lakshmi
 
 Shanmukh R
+
 
