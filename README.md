@@ -2,6 +2,8 @@
 
 app download link :https://drive.google.com/file/d/1_QWUN5xRciIlQXg-_Slk1Tw0IspXgVqH/view?usp=sharing
 
+Video demo link:https://www.powtoon.com/c/gbyNLbM4cuK/1/m
+
 ## Introduction
 Ever wondered if money could grow from trees? 💵🌳
 
